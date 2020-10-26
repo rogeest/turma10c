@@ -1,0 +1,19 @@
+package br.com.colecoes.implementacao;
+
+import java.util.ArrayList;
+import java.awt.List;
+import java.util.AbstractList;
+
+public class TesteList {
+
+	//Collection Framework => possuem recursos para facilitar
+	//trabalho com dados multivalorados
+
+	ArrayList lista = new ArrayList ();
+	lista.add("DBA");
+	lista.add("DEV");
+	lista.add("DEVOPS");
+	lista.add("DBA");
+	System.out.println(lista);
+
+}
